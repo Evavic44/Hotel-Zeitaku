@@ -48,7 +48,7 @@ img {
    /* opacity: 0.9; */
    height: 70px;
    width: 100%;
-   padding: 20px;
+   padding: 20px 10px;
    position: fixed;
    top: 0;
    transition: 0.9s;
@@ -60,12 +60,12 @@ img {
 
 .navbar a {
    color: #fff;
-   padding: 10px 20px;
+   padding: 10px 15px;
 }
 
 .navbar .logo {
    font-size: 1.5rem;
-   padding: 15px 20px;
+   padding: 15px;
    order: 2;
 }
 
@@ -74,8 +74,9 @@ img {
 }
 
 .navbar nav a {
-   padding: 15px 20px;
+   padding: 15px;
    font-weight: 900;
+   font-size: 15px;
 }
 
 .navbar nav a:hover {
@@ -285,11 +286,14 @@ img {
    justify-content: center;
    padding: 40px 45px;
    font-weight: 500;
+   font-size: 17.5px;
+   text-align: center;
 }
 
 .post h1 {
    font-weight: 500;
-   font-size: 30px;
+   padding-top: 10px;
+   font-size: 34px;
 }
 
 .post-one {
@@ -471,7 +475,7 @@ img {
    }
 
    .navbar nav a {
-      padding: 15px 20px;
+      padding: 15px 13px;
    }
 }
 

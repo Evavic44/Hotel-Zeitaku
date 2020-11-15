@@ -150,3 +150,8 @@
    max-width: 25%;
    padding: 0 4px;
 }
+
+.main-container {
+   margin: 0 auto;
+   max-width: 1200px;
+}
