@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300;400&family=Raleway:wght@200;300&display=swap');
+
+/* Css reset */
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+/* Main styling */
+body {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 100;
+   line-height: 1.6;
+   color: #333;
+}
+
+h1, h2, h3 {
+   padding-bottom: 10px;
+   line-height: 1.3;
+   font-weight: 100;
+}
+
+p {
+   margin: 10px 0;
+}
+
+ul {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: #333;
+}
+
+img {
+   width: 100%;
+}
+
+/* Navbar */
+.navbar {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background: #333;
+   color: #fff;
+   /* opacity: 0.9; */
+   height: 70px;
+   width: 100%;
+   padding: 20px;
+   position: fixed;
+   top: 0;
+   transition: 0.9s;
+}
+
+.navbar.top {
+   background: transparent;
+}
+
+.navbar a {
+   color: #fff;
+   padding: 10px 20px;
+}
+
+.navbar .logo {
+   font-size: 1.5rem;
+   padding: 15px 20px;
+   order: 2;
+}
+
+.navbar nav {
+   order: 1;
+}
+
+.navbar nav a {
+   padding: 15px 20px;
+   font-weight: 900;
+}
+
+.navbar nav a:hover {
+   border-bottom: 2px solid #fff;
+}
+
+.navbar ul {
+   display: flex;
+}
+
+.navbar .social {
+   order: 3;
+   margin-right: 20px;
+}
+
+.navbar .social a {
+   opacity: 0.5;
+   padding: 0 20px;
+}
+
+.navbar .social a:hover {
+   opacity: 1;
+}
+
+/* Hero */
+.hero {
+   background: url('../img/home/home.jpg') no-repeat center center/cover;
+   height: 100vh;
+   color: #fff;
+   position: relative;
+   padding-top: 15px;
+}
+
+.hero .content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   height: 100%;
+   padding: 0 20px;
+   line-height: 1.8;
+}
+
+.hero .content h1 {
+   font-size: 100px;
+   font-weight: 600;
+   padding-bottom: 20px;
+}
+
+.hero .content p {
+   font-size: 22px;
+}
+
+.hero .content .btn {
+   margin-top: 20px;
+}
+
+.hero::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%; 
+   background: rgba(0, 0, 0, 0.4);
+}
+
+.hero * {
+   z-index: 10;
+}
+
+/* Icons */
+.icons {
+   padding: 20px;
+}
+
+.icons i {
+   font-size: 40px;
+   color: #14af74;
+   padding-bottom: 1rem;
+}
+
+.icons h3 {
+   font-weight: 600;
+}
+
+/* food */
+.food img {
+   border-radius: 3px;
+}
+
+.food img:hover {
+   opacity: 0.7;
+}
+
+/* Rooms */
+.rooms p {
+   font-weight: 500;
+}
+
+.rooms .room {
+   display: flex;
+   flex-direction: row;
+   padding: 0 20px;
+   font-weight: 500;
+}
+
+.rooms .room > div {
+   display: flex;
+   flex-direction: column;
+   padding: 0 20px;
+}
+
+.rooms .room img {
+   border-radius: 3px;
+}
+
+.rooms .room h3 {
+   padding-top: 20px;
+   font-weight: 500;
+   font-size: 21px;
+}
+
+.rooms .room .list {
+   padding: 15px 0 30px 0;
+}
+
+.rooms .room .list ul {
+   list-style: disc;
+   padding: 0 18px;
+   font-size: 17px;
+}
+
+.rooms .room .list ul li {
+   padding: 5px 0;
+}
+
+.rooms .room .btn {
+   width: 100%;
+   margin-top: 10px;
+   text-align: center;
+}
+
+.rooms .room .btn:hover {
+   background: #3cce96;
+   color: #fff;
+}
+
+/* Contact */
+.contact h2 {
+   font-weight: 500;
+   padding-top: 10px 0;
+}
+
+.contact form {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   width: 100%;
+}
+
+.contact input {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ddd;
+}
+
+.contact input:focus {
+   outline: none;
+   border: 1px solid #59d8a7;
+   font-size: 13.2px;
+}
+
+.contact .form-group {
+   padding-bottom: 20px;
+   width: 100%;
+}
+
+.form-group label {
+   display: none;
+}
+
+.contact .btn {
+   padding: 12px;
+}
+
+/* About-info */
+.hero.about-post {
+   background: url(../img/home/about-post.jpg) no-repeat center center/cover;
+   height: 50vh;
+}
+
+.hero.about-post .content {
+   padding-top: 20px;
+}
+
+.hero.about-post .content h1 {
+   font-size: 70px;
+}
+
+.post {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   padding: 40px 45px;
+   font-weight: 500;
+}
+
+.post h1 {
+   font-weight: 500;
+   font-size: 30px;
+}
+
+.post-one {
+   padding: 30px 0 30px;
+   border-bottom: 1px solid #3cce96;
+}
+
+.rooms.about-rooms .btn:hover {
+   background: #14af74;
+}
+
+.post-two {
+   padding: 0 0 20px;
+   margin: 0 0 30px;
+   border-bottom: 1px solid #14af74;
+}
+
+.post-two:last-child {
+   border-bottom: none;
+}
+
+.contact-info {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   padding: 0 0 30px;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.contact-info p {
+   padding: 0 20px;
+}
+
+.contact-info i {
+   color: #aaa;
+   padding: 10px;
+}
+
+.contact-info p:last-child {
+   background: #3cce96;
+   color: #fff;
+   padding: 15px;
+   border: 1px solid #ddd;
+}
+
+/* Thank you */
+.container {
+   background: url('../img/home/thankyou.gif') no-repeat center center/cover;
+   height: 100vh;
+   color: #fff;
+}
+
+.thankyou {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   height: 80%;
+   margin: 0 50px;
+}
+
+.thankyou .content {
+   padding-top: 50px;
+   font-weight: 500;
+}
+
+.thankyou .content h1 {
+   font-size: 45px;
+   background: #0284d0;
+   padding: 10px 20px;
+   border-radius: 5px;
+}
+
+.thankyou .content p {
+   font-size: 19px;
+   margin-top: 15px;
+   font-weight: 570;
+}
+
+.footer-thankyou {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.footer-thankyou .socials a {
+   color: #0284d0;
+}
+
+.footer-thankyou .socials a:hover {
+   color: #fff;
+}
+/* Footer */
+.footer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   padding: 30px;
+}
+
+.socials a {
+   font-size: 20px;
+   color: #fff;
+   padding: 8px 10px;
+}
+
+.socials a:hover {
+   color: #14af74;
+}
+
+/* Media queries */
+/* ? @900px */
+@media(max-width: 900px) {
+   .navbar .logo {
+      order: 1;
+      padding: 15px 0;
+   }
+   
+   .navbar nav {
+      order: 3;
+   }
+   
+   .navbar .social {
+      display: none;
+      order: 2;
+   }
+   
+   .hero .content h1 {
+      font-size: 75px;
+   }
+
+   .hero .content p {
+      font-size: 20px;
+   }
+}
+
+/* ? @768px */
+@media(max-width: 768px) {
+   .flex-items {
+      flex-direction: column;
+   }
+
+   section.flex-columns .column {
+      flex: 100%;
+      max-width: 100%;
+   }
+
+   section.flex-grid .column {
+      flex: 50%;
+      max-width: 50%;
+   }
+
+   .rooms .room {
+      flex-direction: column;
+      padding: 5px 100px;
+   }
+
+   .rooms .room > div {
+      padding: 0;
+   }
+}
+
+/* ? @600px */
+@media(max-width: 600px) {
+   .navbar {
+      flex-direction: column;
+      height: 110px;
+   }
+
+   .navbar .logo {
+      padding: 0 20px 15px;
+   }
+
+   .navbar nav a {
+      padding: 15px 20px;
+   }
+}
+
+/* ? @500px */
+@media(max-width: 500px) {
+   .hero .content {
+      line-height: 1.6;
+   }
+
+   .hero .content p {
+      font-size: 19px;
+   }
+
+   .rooms .room {
+      padding: 10px 30px;
+   }
+}
+

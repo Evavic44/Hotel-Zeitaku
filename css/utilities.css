@@ -1,0 +1,152 @@
+/* text color */
+.text-primary {
+   color: #3cce96;
+}
+
+.text-secondary {
+   color: #14a36c;
+}
+
+.text-other {
+   color: #0284d0;
+}
+
+/* background */
+.bg-primary {
+   background: #3cce96;
+   color: #fff;
+}
+
+.bg-light {
+   background: #f4f4f4;
+   color: #333;
+}
+
+.bg-dark {
+   background: #333;
+   color: #fff;
+}
+
+/* button */
+.btn {
+   display: inline-block;
+   background: #333;
+   color: #fff;
+   padding: 15px 30px;
+   border-radius: 2px;
+   cursor: pointer;
+   border-radius: 3px;
+}
+
+.btn-primary {
+   background: #3cce96;
+   color: #fff;
+}
+
+.btn-primary:hover {
+   background: #14a36c;
+}
+
+.btn-outline {
+   background: transparent;
+   border: 1px solid #3cce96; 
+   color: #333; 
+}
+
+/* ?flex-items */
+.flex-items {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   padding: 10px;
+   height: 100%;
+   font-weight: 500;
+}
+
+.flex-items > div {
+   padding: 20px;
+}
+
+/* ?flex-columns */
+.flex-columns .row {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: 100%;
+}
+
+.flex-columns .column {
+   display: flex;
+   flex-direction: column;
+   flex-basis: 100%;
+   flex: 1;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+   height: 100%;
+}
+
+.flex-columns img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.flex-columns .column-2 {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   padding: 20px 30px 30px;
+   font-weight: 500;
+}
+
+.flex-columns h4 {
+   padding-bottom: 10px;
+}
+
+.flex-columns h2 {
+   font-size: 40px;
+   margin: 0 10px 0 0;
+}
+
+.flex-columns .btn {
+   margin-top: 10px;
+}
+
+.secondary-header {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   padding: 30px 40px;
+}
+
+.secondary-header h4 {
+   padding-bottom: 15px;
+}
+
+.secondary-header h2 {
+   font-size: 50px;
+}
+
+/* flex-grid */
+.flex-grid {
+   padding: 20px 5px;
+}
+
+.flex-grid .row {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0 4px;
+}
+
+.flex-grid .column {
+   flex: 25%;
+   max-width: 25%;
+   padding: 0 4px;
+}
