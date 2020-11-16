@@ -254,7 +254,7 @@
          <div class="column">
             <div class="column-2 bg-light">
                <h2>Contact</h2>
-               <form action="thankyou.html">
+               <form action="POST" data-netlify="true">
                   <div class="form-group">
                      <label for="name">Enter Name</label>
                      <input type="text" id="name" name="name" placeholder="Enter name">
@@ -268,6 +268,10 @@
                   <div class="form-group">
                      <label for="phone">Enter phone</label>
                      <input type="text" id="phone" name="phone" placeholder="Enter phone">
+                  </div>
+
+                  <div class="form-group">
+                     <div dat-netlify-recaptcha="true"></div>
                   </div>
 
                   <input type="submit" class="btn btn-primary" value="Send">
