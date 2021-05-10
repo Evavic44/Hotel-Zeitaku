@@ -4,5 +4,5 @@
 * Jquery library
 * JavaScript lightbox
 
-[website link](https://hotelzeitaku.netlify.app/)
+[Preview](https://hotelzeitaku.netlify.app/)
 
