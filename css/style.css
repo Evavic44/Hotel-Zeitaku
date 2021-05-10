@@ -265,10 +265,6 @@ img {
    padding: 12px;
 }
 
-.contact p {
-   color: #0284d0;
-}
-
 /* About-info */
 .hero.about-post {
    background: url(../img/home/about-post.jpg) no-repeat center center/cover;
@@ -333,12 +329,6 @@ img {
    padding: 0 20px;
 }
 
-.column-2 form p {
-   font-size: 12px;
-   font-weight: 600;
-   color: #0b8a59;
-}
-
 .contact-info i {
    color: #aaa;
    padding: 10px;
@@ -353,7 +343,7 @@ img {
 
 /* Thank you */
 .container {
-   background: url('../img/home/thankyou.gif') no-repeat center center/cover;
+   background-color: #080723;
    height: 100vh;
    color: #fff;
 }
@@ -369,21 +359,20 @@ img {
 }
 
 .thankyou .content {
-   padding-top: 50px;
+   background: url('../img/home/thankyou.gif') no-repeat center center/cover;
+   padding-top: 400px;
    font-weight: 500;
 }
 
 .thankyou .content h1 {
    font-size: 45px;
-   background: #0284d0;
-   padding: 10px 20px;
+   background-color: #0284d0;
+   padding: 5px;
    border-radius: 5px;
 }
 
 .thankyou .content p {
-   font-size: 19px;
-   margin-top: 15px;
-   font-weight: 570;
+   font-size: 0.95rem;
 }
 
 .footer-thankyou {
@@ -392,9 +381,11 @@ img {
    align-items: center;
    justify-content: center;
    text-align: center;
+   margin-top: 50px;
 }
 
 .footer-thankyou .socials a {
+   font-size: 1rem;
    color: #0284d0;
 }
 
