@@ -224,8 +224,8 @@ integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="ano
             <div class="list">
                <h3>Premium Room</h3>
                <ul>
-                  <li>Standard condition</li>
-                  <li>Single Size</li>
+                  <li>Premium Room</li>
+                  <li>Double Size</li>
                   <li>Room service</li>
                </ul>
                <a href="#" class="btn btn-outline">Book Now</a>
@@ -237,8 +237,8 @@ integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="ano
             <div class="list">
                <h3>Deluxe Room</h3>
                <ul>
-                  <li>Standard condition</li>
-                  <li>Single Size</li>
+                  <li>Deluxe Room</li>
+                  <li>Deluxe Size</li>
                   <li>Room service</li>
                </ul>
                <a href="#" class="btn btn-outline">Book Now</a>
@@ -262,24 +262,25 @@ integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="ano
                <form action="thankyou.html" data-netlify="true">
                   <div class="form-group">
                      <label for="name">Enter Name</label>
-                     <input type="text" id="name" name="name" placeholder="Enter name">
+                     <input type="text" id="name" name="name" placeholder="Enter name" required>
                   </div>
-
+                  
                   <div class="form-group">
                      <label for="email">Enter Email</label>
-                     <input type="email" id="name" name="email" placeholder="Enter email" required>
+                     <input type="email" id="name" name="email" placeholder="Enter email">
                   </div>
 
                   <div class="form-group">
-                     <label for="phone">Enter phone</label>
-                     <input type="text" id="phone" name="phone" placeholder="Enter phone">
+                     <label for="text">Say something nice to us</label>
+                     <input type="text" id="text" name="text" placeholder="Send us a message" required>
                   </div>
-
+                  <p>Submit this form for a TOP SECRET PAGE!!! <i class="fas fa-cat"></i></p>
+                  
                   <div class="form-group">
                      <div data-netlify-recaptcha="true"></div>
                   </div>
 
-                  <input type="submit" class="btn btn-primary" value="Send">
+                  <input type="submit" class="btn btn-primary" value="Submit">
                </form>
             </div>
          </div>

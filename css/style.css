@@ -265,6 +265,10 @@ img {
    padding: 12px;
 }
 
+.contact p {
+   color: #0284d0;
+}
+
 /* About-info */
 .hero.about-post {
    background: url(../img/home/about-post.jpg) no-repeat center center/cover;
@@ -327,6 +331,12 @@ img {
 
 .contact-info p {
    padding: 0 20px;
+}
+
+.column-2 form p {
+   font-size: 12px;
+   font-weight: 600;
+   color: #0b8a59;
 }
 
 .contact-info i {
