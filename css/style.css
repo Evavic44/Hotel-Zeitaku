@@ -16,13 +16,13 @@ body {
 }
 
 h1, h2, h3 {
-   padding-bottom: 10px;
+   padding-bottom: 0.625rem;
    line-height: 1.3;
    font-weight: 100;
 }
 
 p {
-   margin: 10px 0;
+   margin: 0.625rem 0;
 }
 
 ul {
@@ -46,9 +46,9 @@ img {
    background: #333;
    color: #fff;
    /* opacity: 0.9; */
-   height: 70px;
+   height: 4.375rem;
    width: 100%;
-   padding: 20px 10px;
+   padding: 1.25rem 0.625rem;
    position: fixed;
    top: 0;
    transition: 0.9s;
@@ -60,12 +60,12 @@ img {
 
 .navbar a {
    color: #fff;
-   padding: 10px 15px;
+   padding: 0.625rem 0.938rem;
 }
 
 .navbar .logo {
    font-size: 1.5rem;
-   padding: 15px;
+   padding: 0.938rem;
    order: 2;
 }
 
@@ -74,13 +74,13 @@ img {
 }
 
 .navbar nav a {
-   padding: 15px;
+   padding: 0.938rem;
    font-weight: 900;
-   font-size: 15px;
+   font-size: 0.938rem;
 }
 
 .navbar nav a:hover {
-   border-bottom: 2px solid #fff;
+   border-bottom: 0.125rem solid #fff;
 }
 
 .navbar ul {
@@ -89,12 +89,12 @@ img {
 
 .navbar .social {
    order: 3;
-   margin-right: 20px;
+   margin-right: 1.25rem;
 }
 
 .navbar .social a {
    opacity: 0.5;
-   padding: 0 20px;
+   padding: 0 1.25rem;
 }
 
 .navbar .social a:hover {
@@ -107,7 +107,7 @@ img {
    height: 100vh;
    color: #fff;
    position: relative;
-   padding-top: 15px;
+   padding-top: 0.938rem;
 }
 
 .hero .content {
@@ -117,22 +117,22 @@ img {
    justify-content: center;
    text-align: center;
    height: 100%;
-   padding: 0 20px;
+   padding: 0 1.25rem;
    line-height: 1.8;
 }
 
 .hero .content h1 {
-   font-size: 100px;
+   font-size: 6.25rem;
    font-weight: 600;
-   padding-bottom: 20px;
+   padding-bottom: 1.25rem;
 }
 
 .hero .content p {
-   font-size: 22px;
+   font-size: 1.375rem;
 }
 
 .hero .content .btn {
-   margin-top: 20px;
+   margin-top: 1.25rem;
 }
 
 .hero::before {
@@ -151,11 +151,11 @@ img {
 
 /* Icons */
 .icons {
-   padding: 20px;
+   padding: 1.25rem;
 }
 
 .icons i {
-   font-size: 40px;
+   font-size: 2.5rem;
    color: #14af74;
    padding-bottom: 1rem;
 }
@@ -166,7 +166,7 @@ img {
 
 /* food */
 .food img {
-   border-radius: 3px;
+   border-radius: 0.188rem;
 }
 
 .food img:hover {
@@ -181,43 +181,43 @@ img {
 .rooms .room {
    display: flex;
    flex-direction: row;
-   padding: 0 20px;
+   padding: 0 1.25rem;
    font-weight: 500;
 }
 
 .rooms .room > div {
    display: flex;
    flex-direction: column;
-   padding: 0 20px;
+   padding: 0 1.25rem;
 }
 
 .rooms .room img {
-   border-radius: 3px;
+   border-radius: 0.188rem;
 }
 
 .rooms .room h3 {
-   padding-top: 20px;
+   padding-top: 1.25rem;
    font-weight: 500;
-   font-size: 21px;
+   font-size: 1.313rem;
 }
 
 .rooms .room .list {
-   padding: 15px 0 30px 0;
+   padding: 0.938rem 0 1.875rem 0;
 }
 
 .rooms .room .list ul {
    list-style: disc;
-   padding: 0 18px;
-   font-size: 17px;
+   padding: 0 1.125rem;
+   font-size: 1.063rem;
 }
 
 .rooms .room .list ul li {
-   padding: 5px 0;
+   padding: 0.313rem 0;
 }
 
 .rooms .room .btn {
    width: 100%;
-   margin-top: 10px;
+   margin-top: 0.625rem;
    text-align: center;
 }
 
@@ -229,7 +229,7 @@ img {
 /* Contact */
 .contact h2 {
    font-weight: 500;
-   padding-top: 10px 0;
+   padding-top: 0.625rem 0;
 }
 
 .contact form {
@@ -242,18 +242,18 @@ img {
 
 .contact input {
    width: 100%;
-   padding: 10px;
-   border: 1px solid #ddd;
+   padding: 0.625rem;
+   border: 0.063rem solid #ddd;
 }
 
 .contact input:focus {
    outline: none;
-   border: 1px solid #59d8a7;
-   font-size: 13.2px;
+   border: 0.063rem solid #59d8a7;
+   font-size: 0.825rem;
 }
 
 .contact .form-group {
-   padding-bottom: 20px;
+   padding-bottom:1.25rem;
    width: 100%;
 }
 
@@ -262,7 +262,7 @@ img {
 }
 
 .contact .btn {
-   padding: 12px;
+   padding:0.75rem;
 }
 
 /* About-info */
@@ -272,11 +272,11 @@ img {
 }
 
 .hero.about-post .content {
-   padding-top: 20px;
+   padding-top: 1.25rem;
 }
 
 .hero.about-post .content h1 {
-   font-size: 70px;
+   font-size: 4.375rem;
 }
 
 .post {
@@ -284,21 +284,21 @@ img {
    flex-direction: column;
    align-items: flex-start;
    justify-content: center;
-   padding: 40px 45px;
+   padding: 2.5rem 2.813rem;
    font-weight: 500;
-   font-size: 17.5px;
+   font-size: 1.094rem;
    text-align: center;
 }
 
 .post h1 {
    font-weight: 500;
-   padding-top: 10px;
-   font-size: 34px;
+   padding-top: 0.625rem;
+   font-size: 2.125rem;
 }
 
 .post-one {
-   padding: 30px 0 30px;
-   border-bottom: 1px solid #3cce96;
+   padding: 1.875rem 0 1.875rem;
+   border-bottom: 0.063rem solid #3cce96;
 }
 
 .rooms.about-rooms .btn:hover {
@@ -306,9 +306,9 @@ img {
 }
 
 .post-two {
-   padding: 0 0 20px;
-   margin: 0 0 30px;
-   border-bottom: 1px solid #14af74;
+   padding: 0 0 1.25rem;
+   margin: 0 0 1.875rem;
+   border-bottom: 0.063rem solid #14af74;
 }
 
 .post-two:last-child {
@@ -320,25 +320,25 @@ img {
    align-items: center;
    justify-content: center;
    text-align: center;
-   padding: 0 0 30px;
-   font-size: 20px;
+   padding: 0 0 1.875rem;
+   font-size: 1.25rem;
    font-weight: 500;
 }
 
 .contact-info p {
-   padding: 0 20px;
+   padding: 0 1.25rem;
 }
 
 .contact-info i {
    color: #aaa;
-   padding: 10px;
+   padding: 0.625rem;
 }
 
 .contact-info p:last-child {
    background: #3cce96;
    color: #fff;
-   padding: 15px;
-   border: 1px solid #ddd;
+   padding: 0.938rem;
+   border: 0.063rem solid #ddd;
 }
 
 /* Thank you */
@@ -355,20 +355,20 @@ img {
    justify-content: center;
    text-align: center;
    height: 80%;
-   margin: 0 50px;
+   margin: 0 3.125rem;
 }
 
 .thankyou .content {
    background: url('../img/home/thankyou.gif') no-repeat center center/cover;
-   padding-top: 400px;
+   padding-top: 25rem;
    font-weight: 500;
 }
 
 .thankyou .content h1 {
-   font-size: 45px;
+   font-size: 2.813rem;
    background-color: #0284d0;
-   padding: 5px;
-   border-radius: 5px;
+   padding: 0.313rem;
+   border-radius: 0.313rem;
 }
 
 .thankyou .content p {
@@ -381,7 +381,7 @@ img {
    align-items: center;
    justify-content: center;
    text-align: center;
-   margin-top: 50px;
+   margin-top: 3.125rem;
 }
 
 .footer-thankyou .socials a {
@@ -399,13 +399,13 @@ img {
    align-items: center;
    justify-content: center;
    text-align: center;
-   padding: 30px;
+   padding: 1.875rem;
 }
 
 .socials a {
-   font-size: 20px;
+   font-size: 1.25rem;
    color: #fff;
-   padding: 8px 10px;
+   padding: 0.5rem 0.625rem;
 }
 
 .socials a:hover {
@@ -414,10 +414,10 @@ img {
 
 /* Media queries */
 /* ? @900px */
-@media(max-width: 900px) {
+@media(max-width: 56.25rem) {
    .navbar .logo {
       order: 1;
-      padding: 15px 0;
+      padding: 0.938rem 0;
    }
    
    .navbar nav {
@@ -430,16 +430,16 @@ img {
    }
    
    .hero .content h1 {
-      font-size: 75px;
+      font-size: 4.688rem;
    }
 
    .hero .content p {
-      font-size: 20px;
+      font-size: 1.25rem;
    }
 }
 
 /* ? @768px */
-@media(max-width: 768px) {
+@media(max-width: 48rem) {
    .flex-items {
       flex-direction: column;
    }
@@ -456,7 +456,7 @@ img {
 
    .rooms .room {
       flex-direction: column;
-      padding: 5px 100px;
+      padding: 0.313rem 6.25rem;
    }
 
    .rooms .room > div {
@@ -465,33 +465,33 @@ img {
 }
 
 /* ? @600px */
-@media(max-width: 600px) {
+@media(max-width: 37.5rem) {
    .navbar {
       flex-direction: column;
-      height: 110px;
+      height: 6.875rem;
    }
 
    .navbar .logo {
-      padding: 0 20px 15px;
+      padding: 0 1.25rem 0.938rem;
    }
 
    .navbar nav a {
-      padding: 15px 13px;
+      padding: 0.938rem 0.813rem;
    }
 }
 
 /* ? @500px */
-@media(max-width: 500px) {
+@media(max-width: 31.25rem) {
    .hero .content {
       line-height: 1.6;
    }
 
    .hero .content p {
-      font-size: 19px;
+      font-size: 1.188rem;
    }
 
    .rooms .room {
-      padding: 10px 30px;
+      padding: 0.625rem 1.875rem;
    }
 }
 
