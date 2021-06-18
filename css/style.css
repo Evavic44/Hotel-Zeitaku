@@ -67,10 +67,7 @@ img {
    font-size: 1.5rem;
    padding: 0.938rem;
    order: 2;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+   transform: translateX(-50%);
 }
 
 .navbar nav {
@@ -422,6 +419,7 @@ img {
    .navbar .logo {
       order: 1;
       padding: 0.938rem 0;
+      transform: none;
    }
    
    .navbar nav {
