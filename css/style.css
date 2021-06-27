@@ -77,6 +77,7 @@ img {
    padding: 0.938rem;
    font-weight: 900;
    font-size: 0.938rem;
+   transition: all 0.4s ease-in-out;
 }
 
 .navbar nav a:hover {
@@ -95,6 +96,7 @@ img {
 .navbar .social a {
    opacity: 0.5;
    padding: 0 1.25rem;
+   transition: all 0.4s ease-in-out;
 }
 
 .navbar .social a:hover {
