@@ -36,6 +36,7 @@
    border-radius: 2px;
    cursor: pointer;
    border-radius: 3px;
+   transition: all 0.4s ease-in-out;
 }
 
 .btn-primary {
